@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Log CVE FIXED"
+title:  Log CVE FIXED
 date:   2018-01-09 17:11:19 +0700
 categories: guzzo blog
 ---
