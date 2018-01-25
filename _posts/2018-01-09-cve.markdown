@@ -18,3 +18,5 @@ CVE ID yg berhasil di fixed :
 *   CVE-2017-2618
 *   CVE-2017-1000365
 *   CVE-2017-11022-prep
+*   CVE-2017-17558
+*   CVE-2017-16939
