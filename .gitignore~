@@ -2,4 +2,3 @@
 
 *~ 		#abaikan file yang diakhiri ~
 _posts/*~ 	#abaikan file yang diakhiri ~ pada dir _posts
-.sass-cache
