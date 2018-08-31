@@ -1,5 +1,5 @@
 #beberapa file yang diabaikan
 
-*~ 		#abaikan file yang diakhiri ~
-_posts/*~ 	#abaikan file yang diakhiri ~ pada dir _posts
+*~ 		
+_posts/*~ 	
 .sass-cache
