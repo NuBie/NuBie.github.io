@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Oreo kernel for mido</title>
+  <meta name="description" content="Ini adalah Kernel based on caf dari mido untuk oreo treble">
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/guzzo/tips/2018/09/01/OREO-KERNEL-FOR-MIDO.html">
+  <link rel="alternate" type="application/rss+xml" title="Guzzo-f1ng3rcuss" href="/feed.xml">
+  
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header" role="banner">
+
+  <div class="wrapper">
+    
+    
+    <a class="site-title" href="/">Guzzo-f1ng3rcuss</a>
+  
+    
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+          
+            
+            
+          
+            
+            
+            <a class="page-link" href="/about/">About</a>
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+        </div>
+      </nav>
+    
+  </div>
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Oreo kernel for mido</h1>
+    <p class="post-meta">
+      <time datetime="2018-09-01T00:55:00+07:00" itemprop="datePublished">
+        
+        Sep 1, 2018
+      </time>
+      </p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>Ini adalah Kernel based on caf dari mido untuk oreo treble</p>
+
+<hr />
+<p>Changelog :</p>
+
+<p>e3eabd9 Renamed kernel zip to v3.18.120
+fc2f603 Merge remote-tracking branch ‘als/kernel.lnx.3.18.r33-rel’ into v3.18y
+d35538e Merge 3.18.120 into kernel.lnx.3.18.r33-rel
+a5f9be3 Linux 3.18.120
+88f8dcd reiserfs: fix broken xattr handling (heap corruption, bad retval)
+3311a39 PCI: hotplug: Don’t leak pci_slot on registration failure
+c1d01e1 packet: refine ring v3 block size test to hold one frame
+c022960 netfilter: conntrack: dccp: treat SYNC/SYNCACK as invalid if no prior state
+966e597 xfrm_user: prevent leaking 2 bytes of kernel memory
+5554e8f staging: android: ion: check for kref overflow
+dfd3805 tcp: identify cryptic messages as TCP seq # bugs
+45d5a5d net: qca_spi: Make sure the QCA7000 reset is triggered
+1357eab net: qca_spi: Avoid packet drop during initial sync
+01c755b net: usb: rtl8150: demote allmulti message to dev_dbg()
+9012fe0 qlogic: check kstrtoul() for errors
+89a9bc2 ixgbe: Be more careful when modifying MAC filters
+c76800b ARM: dts: am3517.dtsi: Disable reference to OMAP3 OTG controller
+7fed6b5 drm/armada: fix colorkey mode property
+f8ebc47 ARM: pxa: irq: fix handling of ICMR registers in suspend/resume
+2e792ad netfilter: x_tables: set module owner for icmp(6) matches
+46ed892 smsc75xx: Add workaround for gigabit link up hardware errata.
+766c02b tracing: Use __printf markup to silence compiler
+d982378 ARM: imx_v4_v5_defconfig: Select ULPI support
+d35f874 m68k: fix “bad page state” oops on ColdFire boot
+7af7d6ec bnx2x: Fix receiving tx-timeout in error or recovery state.
+f4ed9d9 drm/exynos: gsc: Fix support for NV16/61, YUV420/YVU420 and YUV422 modes
+0d8e0d1 md/raid10: fix that replacement cannot complete recovery after reassemble
+c641c71 dmaengine: k3dma: Off by one in k3_of_dma_simple_xlate()
+a750989 ARM: dts: da850: Fix interrups property for gpio
+915d80f perf report powerpc: Fix crash if callchain is empty
+9b99d54 ARM: dts: am437x: make edt-ft5x06 a wakeup source
+7acdfae brcmfmac: stop watchdog before detach and free everything
+99b61ce cxgb4: when disabling dcb set txq dcb priority to 0
+f1630f8 Smack: Mark inode instant in smack_task_to_inode
+79093b9 ipv6: mcast: fix unsolicited report interval after receiving querys
+9773c6d locking/lockdep: Do not record IRQ state within lockdep code
+a5eb5cb net: davinci_emac: match the mdio device against its compatible if possible
+d4a1dd4 net: propagate dev_get_valid_name return code
+318b0e8 net: hamradio: use eth_broadcast_addr
+2416eb0 enic: initialize enic-&gt;rfs_h.lock in enic_probe
+f26b61f arm64: make secondary_start_kernel() notrace
+c302a0e usb: gadget: composite: fix delayed_status race condition when set_interface
+bd3db43 usb: dwc2: fix isoc split in transfer with no data
+3b0134e selftests: sync: add config fragment for testing sync framework
+20b50fb netfilter: ipv6: nf_defrag: reduce struct net memory waste
+f6d57da isdn: Disable IIOCDBGVAR
+9515219 Bluetooth: avoid killing an already killed socket
+0af583b serial: 8250_dw: always set baud rate in dw8250_set_termios
+382627a USB: serial: sierra: fix potential deadlock at close
+23a5e85 ALSA: vxpocket: Fix invalid endian conversions
+270ba2c ALSA: memalloc: Don’t exceed over the requested size
+88c9ef7 ALSA: cs5535audio: Fix invalid endian conversion
+75890e9 ALSA: virmidi: Fix too long output trigger loop
+9c09519 ALSA: vx222: Fix invalid endian conversions
+2ccea62 vsock: split dwork to avoid reinitializations
+31b912a5 net_sched: fix NULL pointer dereference when delete tcindex filter
+8a6eecd net_sched: Fix missing res info when create new tc_index filter
+71e6f3f llc: use refcount_inc_not_zero() for llc_sap_find()
+719710e l2tp: use sk_dst_check() to avoid race on sk-&gt;sk_dst_cache
+63615fa dccp: fix undefined behavior with ‘cwnd’ shift in ccid2_cwnd_restart()</p>
+
+  </div>
+
+  
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Guzzo-f1ng3rcuss</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>
+            
+              Guzzo-f1ng3rcuss
+            
+            </li>
+            
+            <li><a href="mailto:agus.ulo100894@gmail.com">agus.ulo100894@gmail.com</a></li>
+            
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/NuBie"><span class="icon icon--github"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">NuBie</span></a>
+
+          </li>
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p></p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
