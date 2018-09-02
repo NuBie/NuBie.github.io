@@ -19,7 +19,7 @@ Changelog/Tracking :
 *   6111e6a Revert "sched: qhmp: avoid scheduling RT threads on cores currently handling softirqs"
 
 ---
-    #################################2018-09-01#################################
+    ***********************************2018-09-01***********************************
 
 ---
 
