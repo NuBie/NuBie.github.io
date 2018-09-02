@@ -1,14 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-01T01:12:18+07:00</updated><id>http://localhost:4000/</id><title type="html">Guzzo-f1ng3rcuss</title><entry><title type="html">Oreo kernel for mido</title><link href="http://localhost:4000/guzzo/tips/2018/09/01/OREO-KERNEL-FOR-MIDO.html" rel="alternate" type="text/html" title="Oreo kernel for mido" /><published>2018-09-01T00:55:00+07:00</published><updated>2018-09-01T00:55:00+07:00</updated><id>http://localhost:4000/guzzo/tips/2018/09/01/OREO-KERNEL-FOR-MIDO</id><content type="html" xml:base="http://localhost:4000/guzzo/tips/2018/09/01/OREO-KERNEL-FOR-MIDO.html">&lt;p&gt;Ini adalah Kernel mido v3.18.y based on caf untuk Android Oreo Treble&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-03T01:01:05+07:00</updated><id>http://localhost:4000/</id><title type="html">Guzzo-f1ng3rcuss</title><entry><title type="html">Oreo kernel for mido</title><link href="http://localhost:4000/guzzo/tips/2018/09/01/OREO-KERNEL-FOR-MIDO.html" rel="alternate" type="text/html" title="Oreo kernel for mido" /><published>2018-09-01T00:55:00+07:00</published><updated>2018-09-01T00:55:00+07:00</updated><id>http://localhost:4000/guzzo/tips/2018/09/01/OREO-KERNEL-FOR-MIDO</id><content type="html" xml:base="http://localhost:4000/guzzo/tips/2018/09/01/OREO-KERNEL-FOR-MIDO.html">&lt;p&gt;Ini adalah Kernel mido v3.18.y based on caf untuk Android Oreo Treble&lt;/p&gt;
 
-&lt;hr /&gt;
-&lt;p&gt;Changelog/Tracking :&lt;/p&gt;
-
-&lt;hr /&gt;
+&lt;h2 id=&quot;changelogtracking-&quot;&gt;Changelog/Tracking :&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;#################################2018-09-01#################################&lt;/li&gt;
+  &lt;li&gt;–common kernel–&lt;/li&gt;
+  &lt;li&gt;54b6ddd arm64: Use optimized memcmp&lt;/li&gt;
+  &lt;li&gt;decb0c5 cpufreq: conservative: unlock sample_rate&lt;/li&gt;
+  &lt;li&gt;c615a95 cpufreq: conservative: Decrease frequency faster when the timer deferred&lt;/li&gt;
+  &lt;li&gt;d80329a msm: mdss: update mdss perf when changing refresh rate&lt;/li&gt;
+  &lt;li&gt;e9c5a01 prevent false check on qcom cpufreq&lt;/li&gt;
+  &lt;li&gt;1ef76ee Add USB HID gadget suport&lt;/li&gt;
+  &lt;li&gt;0173b89 Makefile: fix segfaults when compiled with Clang&lt;/li&gt;
+  &lt;li&gt;6111e6a Revert “sched: qhmp: avoid scheduling RT threads on cores currently handling softirqs”&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#################################2018-09-01#################################
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
 &lt;ul&gt;
   &lt;li&gt;e3eabd9 Renamed kernel zip to v3.18.120&lt;/li&gt;
   &lt;li&gt;fc2f603 Merge remote-tracking branch ‘als/kernel.lnx.3.18.r33-rel’ into v3.18y&lt;/li&gt;

@@ -6,10 +6,9 @@ categories: guzzo tips
 ---
 Ini adalah Kernel mido v3.18.y based on caf untuk Android Oreo Treble 
 
----
 Changelog/Tracking :
 ---
-*   /*common kernel*/
+*   --common kernel--
 *   54b6ddd arm64: Use optimized memcmp
 *   decb0c5 cpufreq: conservative: unlock sample_rate
 *   c615a95 cpufreq: conservative: Decrease frequency faster when the timer deferred
@@ -20,7 +19,7 @@ Changelog/Tracking :
 *   6111e6a Revert "sched: qhmp: avoid scheduling RT threads on cores currently handling softirqs"
 
 ---
-*   #################################2018-09-01#################################
+    #################################2018-09-01#################################
 
 ---
 
