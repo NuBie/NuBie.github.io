@@ -8,11 +8,22 @@ Ini adalah Kernel mido v3.18.y based on caf untuk Android Oreo Treble
 
 ---
 Changelog/Tracking :
+---
+*   /*common kernel*/
+*   54b6ddd arm64: Use optimized memcmp
+*   decb0c5 cpufreq: conservative: unlock sample_rate
+*   c615a95 cpufreq: conservative: Decrease frequency faster when the timer deferred
+*   d80329a msm: mdss: update mdss perf when changing refresh rate
+*   e9c5a01 prevent false check on qcom cpufreq
+*   1ef76ee Add USB HID gadget suport
+*   0173b89 Makefile: fix segfaults when compiled with Clang
+*   6111e6a Revert "sched: qhmp: avoid scheduling RT threads on cores currently handling softirqs"
 
 ---
 *   #################################2018-09-01#################################
 
 ---
+
 *   e3eabd9 Renamed kernel zip to v3.18.120
 *   fc2f603 Merge remote-tracking branch 'als/kernel.lnx.3.18.r33-rel' into v3.18y
 *   d35538e Merge 3.18.120 into kernel.lnx.3.18.r33-rel
