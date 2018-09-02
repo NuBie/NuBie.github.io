@@ -4,7 +4,7 @@ title:  Oreo kernel for mido
 date:   2018-09-01 00:55:00 +0700
 categories: guzzo tips
 ---
-Ini adalah Kernel mido v3.18.y based on caf untuk Android Oreo Treble 
+Ini adalah changelog perubahan Kernel mido v3.18.y based on caf untuk Android Oreo Treble yang telah di merged ke github repository !
 
 Changelog/Tracking :
 ---
