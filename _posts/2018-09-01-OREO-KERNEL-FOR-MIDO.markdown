@@ -17,6 +17,7 @@ Changelog/Tracking :
 *   1ef76ee Add USB HID gadget suport
 *   0173b89 Makefile: fix segfaults when compiled with Clang
 *   6111e6a Revert "sched: qhmp: avoid scheduling RT threads on cores currently handling softirqs"
+*   971e626 msm: kgsl: Remove POPP
 
 ---
     ***********************************2018-09-01***********************************
