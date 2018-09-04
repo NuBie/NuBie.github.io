@@ -9,6 +9,9 @@ Ini adalah changelog perubahan Kernel mido v3.18.y based on caf untuk Android Or
 Changelog/Tracking :
 ---
 *   --common kernel--
+*   5454eb1 workqueue: fix permissions for power-efficient_wq
+*   75df889 UPSTREAM: fs/sync.c: remove unnecessary NULL f_mapping check in sync_fil
+*   2f33a8a USB: f_fs: change wait as freezable
 *   d1b274a cpufreq: Restore policy min/max limits on CPU online
 *   7e416a5 arm64: Use optimized memcmp
 *   80b9104 cpufreq: conservative: unlock sample_rate
