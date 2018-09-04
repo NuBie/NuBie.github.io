@@ -9,15 +9,17 @@ Ini adalah changelog perubahan Kernel mido v3.18.y based on caf untuk Android Or
 Changelog/Tracking :
 ---
 *   --common kernel--
-*   54b6ddd arm64: Use optimized memcmp
-*   decb0c5 cpufreq: conservative: unlock sample_rate
-*   c615a95 cpufreq: conservative: Decrease frequency faster when the timer deferred
-*   d80329a msm: mdss: update mdss perf when changing refresh rate
-*   e9c5a01 prevent false check on qcom cpufreq
-*   1ef76ee Add USB HID gadget suport
-*   0173b89 Makefile: fix segfaults when compiled with Clang
-*   6111e6a Revert "sched: qhmp: avoid scheduling RT threads on cores currently handling softirqs"
-*   971e626 msm: kgsl: Remove POPP
+*   d1b274a cpufreq: Restore policy min/max limits on CPU online
+*   7e416a5 arm64: Use optimized memcmp
+*   80b9104 cpufreq: conservative: unlock sample_rate
+*   edb9653 cpufreq: conservative: Decrease frequency faster when the timer deferred
+*   f12d53c msm: mdss: update mdss perf when changing refresh rate
+*   c87ce81 prevent false check on qcom cpufreq
+*   750b54e Add USB HID gadget suport
+*   fd01b64 Makefile: fix segfaults when compiled with Clang
+*   4dda90f Revert "sched: qhmp: avoid scheduling RT threads on cores currently hand
+*   636656e msm: kgsl: Remove POPP
+
 
 ---
     ***********************************2018-09-01***********************************
