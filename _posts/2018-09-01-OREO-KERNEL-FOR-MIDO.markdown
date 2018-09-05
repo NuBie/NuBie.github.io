@@ -9,19 +9,20 @@ Ini adalah changelog perubahan Kernel mido v3.18.y based on caf untuk Android Or
 Changelog/Tracking :
 ---
 *   --common kernel--
-*   5454eb1 workqueue: fix permissions for power-efficient_wq
-*   75df889 UPSTREAM: fs/sync.c: remove unnecessary NULL f_mapping check in sync_fil
-*   2f33a8a USB: f_fs: change wait as freezable
-*   d1b274a cpufreq: Restore policy min/max limits on CPU online
-*   7e416a5 arm64: Use optimized memcmp
-*   80b9104 cpufreq: conservative: unlock sample_rate
-*   edb9653 cpufreq: conservative: Decrease frequency faster when the timer deferred
-*   f12d53c msm: mdss: update mdss perf when changing refresh rate
-*   c87ce81 prevent false check on qcom cpufreq
-*   750b54e Add USB HID gadget suport
-*   fd01b64 Makefile: fix segfaults when compiled with Clang
-*   4dda90f Revert "sched: qhmp: avoid scheduling RT threads on cores currently hand
-*   636656e msm: kgsl: Remove POPP
+*   a04b05b workqueue: fix permissions for power-efficient_wq
+*   068d846 UPSTREAM: fs/sync.c: remove unnecessary NULL f_mapping check in sync_file_range
+*   649ca46 USB: f_fs: change wait as freezable
+*   073cd30 cpufreq: Restore policy min/max limits on CPU online
+*   62f2d1d arm64: Use optimized memcmp
+*   413cac9 cpufreq: conservative: unlock sample_rate
+*   69ef113 cpufreq: conservative: Decrease frequency faster when the timer deferred
+*   bd83429 msm: mdss: update mdss perf when changing refresh rate
+*   037a9fb prevent false check on qcom cpufreq
+*   edd4158 Add USB HID gadget suport
+*   12c0428 Makefile: fix segfaults when compiled with Clang
+*   1e09dab Revert "sched: qhmp: avoid scheduling RT threads on cores currently handling softirqs"
+*   d49bbe2 msm: kgsl: Remove POPP
+*   ab889b6 msm: kgsl: Wake GPU upon receiving an ioctl rather than upon touch input
 
 
 ---
