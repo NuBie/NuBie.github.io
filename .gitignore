@@ -2,8 +2,9 @@
 
 *~ 		
 _posts/*~ 	
-.sass-cache
+*.sass-cache/
 .markdown~
 _posts/*.markdown~
 .gitignore~
 .croot
+*.scssc
