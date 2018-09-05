@@ -9,3 +9,8 @@ _posts/*.markdown~
 .croot
 *.scssc
 .sass-cache
+.sass-cache/387bdc2df5dd57068dedb855b1ad5bca7f719355/minima.scssc
+.sass-cache/75374daad0ad6246b394849d48ff9c35df83906e/_base.scssc
+.sass-cache/75374daad0ad6246b394849d48ff9c35df83906e/_layout.scssc
+.sass-cache/75374daad0ad6246b394849d48ff9c35df83906e/_layout.scssc
+
