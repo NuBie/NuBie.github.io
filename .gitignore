@@ -8,3 +8,4 @@ _posts/*.markdown~
 .gitignore~
 .croot
 *.scssc
+.sass-cache
