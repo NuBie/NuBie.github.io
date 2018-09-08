@@ -9,6 +9,8 @@ Ini adalah changelog perubahan Kernel mido v3.18.y based on caf untuk Android Or
 Changelog/Tracking :
 ---
 *   --common kernel--
+*   31cd970 sched/core: Properly fix constant logical operand Clang warning
+*   b40f59c ALSA: rawmidi: Undo my 3.18.117 resolution
 *   884706d fix memory leak free binder memory on error
 *   255fb0e disable mdss xlog panic on error
 *   3419350 msm: ipa3: Fix redundant wakelock releases in error paths
