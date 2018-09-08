@@ -9,6 +9,7 @@ Ini adalah changelog perubahan Kernel mido v3.18.y based on caf untuk Android Or
 Changelog/Tracking :
 ---
 *   --common kernel--
+*   3419350 msm: ipa3: Fix redundant wakelock releases in error paths
 *   a04b05b workqueue: fix permissions for power-efficient_wq
 *   068d846 UPSTREAM: fs/sync.c: remove unnecessary NULL f_mapping check in sync_file_range
 *   649ca46 USB: f_fs: change wait as freezable
