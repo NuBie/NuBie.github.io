@@ -4,7 +4,7 @@ title:  Oreo kernel for mido
 date:   2018-09-01 00:55:00 +0700
 categories: guzzo tips
 ---
-Ini adalah changelog perubahan Kernel mido v3.18.y based on caf untuk Android Oreo Treble yang telah di merged ke github repository ! sources dapat dilihat [Disini!](https://github.com/NuBie/android_kernel_xiaomi_msm8953)
+Ini adalah changelog perubahan Kernel mido v3.18.y based on caf untuk Android Oreo Treble yang telah di merged ke github repository ! sources dapat dilihat [Disini!](https://github.com/NuBie/android_kernel_xiaomi_msm8953) dan untuk melihat malam minggu dev silahkan [klik ini !](https://raw.githubusercontent.com/NuBie/NuBie.github.io/master/__images/blob/001.png)
 
 Changelog/Tracking :
 ---
