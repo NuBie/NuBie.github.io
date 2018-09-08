@@ -9,6 +9,8 @@ Ini adalah changelog perubahan Kernel mido v3.18.y based on caf untuk Android Or
 Changelog/Tracking :
 ---
 *   --common kernel--
+*   884706d fix memory leak free binder memory on error
+*   255fb0e disable mdss xlog panic on error
 *   3419350 msm: ipa3: Fix redundant wakelock releases in error paths
 *   a04b05b workqueue: fix permissions for power-efficient_wq
 *   068d846 UPSTREAM: fs/sync.c: remove unnecessary NULL f_mapping check in sync_file_range
