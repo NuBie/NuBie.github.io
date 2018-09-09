@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-09T01:50:05+07:00</updated><id>http://localhost:4000/</id><title type="html">Guzzo-f1ng3rcuss</title><entry><title type="html">Oreo kernel for mido</title><link href="http://localhost:4000/guzzo/tips/2018/09/01/OREO-KERNEL-FOR-MIDO.html" rel="alternate" type="text/html" title="Oreo kernel for mido" /><published>2018-09-01T00:55:00+07:00</published><updated>2018-09-01T00:55:00+07:00</updated><id>http://localhost:4000/guzzo/tips/2018/09/01/OREO-KERNEL-FOR-MIDO</id><content type="html" xml:base="http://localhost:4000/guzzo/tips/2018/09/01/OREO-KERNEL-FOR-MIDO.html">&lt;p&gt;Ini adalah changelog perubahan Kernel mido v3.18.y based on caf untuk Android Oreo Treble yang telah di merged ke github repository ! sources dapat dilihat &lt;a href=&quot;https://github.com/NuBie/android_kernel_xiaomi_msm8953&quot;&gt;Disini!&lt;/a&gt; dan untuk melihat malam minggu dev silahkan &lt;a href=&quot;https://raw.githubusercontent.com/NuBie/NuBie.github.io/master/__images/blob/001.png&quot;&gt;klik ini !&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-10T06:25:21+07:00</updated><id>http://localhost:4000/</id><title type="html">Guzzo-f1ng3rcuss</title><entry><title type="html">Oreo kernel for mido</title><link href="http://localhost:4000/guzzo/tips/2018/09/01/OREO-KERNEL-FOR-MIDO.html" rel="alternate" type="text/html" title="Oreo kernel for mido" /><published>2018-09-01T00:55:00+07:00</published><updated>2018-09-01T00:55:00+07:00</updated><id>http://localhost:4000/guzzo/tips/2018/09/01/OREO-KERNEL-FOR-MIDO</id><content type="html" xml:base="http://localhost:4000/guzzo/tips/2018/09/01/OREO-KERNEL-FOR-MIDO.html">&lt;p&gt;Ini adalah changelog perubahan Kernel mido v3.18.y based on caf untuk Android Oreo Treble yang telah di merged ke github repository ! sources dapat dilihat &lt;a href=&quot;https://github.com/NuBie/android_kernel_xiaomi_msm8953&quot;&gt;Disini!&lt;/a&gt; dan untuk melihat malam minggu dev silahkan &lt;a href=&quot;https://raw.githubusercontent.com/NuBie/NuBie.github.io/master/__images/blob/001.png&quot;&gt;klik ini !&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;changelogtracking-&quot;&gt;Changelog/Tracking :&lt;/h2&gt;
 &lt;ul&gt;
@@ -22,6 +22,53 @@
   &lt;li&gt;1e09dab Revert “sched: qhmp: avoid scheduling RT threads on cores currently handling softirqs”&lt;/li&gt;
   &lt;li&gt;d49bbe2 msm: kgsl: Remove POPP&lt;/li&gt;
   &lt;li&gt;ab889b6 msm: kgsl: Wake GPU upon receiving an ioctl rather than upon touch input&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;***********************************2018-09-10***********************************
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;a286f86 Renamed kernel zip to v3.18.122&lt;/li&gt;
+  &lt;li&gt;1400bd6 sched/core: Properly fix constant logical operand Clang warning&lt;/li&gt;
+  &lt;li&gt;560a6bd fix memory leak free binder memory on error&lt;/li&gt;
+  &lt;li&gt;958bb18 disable mdss xlog panic on error&lt;/li&gt;
+  &lt;li&gt;e537088 msm: ipa3: Fix redundant wakelock releases in error paths&lt;/li&gt;
+  &lt;li&gt;e737632 Merge branch ‘kernel.lnx.3.18.r33-rel’ of https://github.com/android-linux-stable/msm-3.18 into caf&lt;/li&gt;
+  &lt;li&gt;09f1173 Merge 3.18.122 into kernel.lnx.3.18.r33-rel&lt;/li&gt;
+  &lt;li&gt;c030599 Linux 3.18.122&lt;/li&gt;
+  &lt;li&gt;b271f88 bcache: release dc-&amp;gt;writeback_lock properly in bch_writeback_thread()&lt;/li&gt;
+  &lt;li&gt;054206a getxattr: use correct xattr length&lt;/li&gt;
+  &lt;li&gt;6f2f65e udlfb: set optimal write delay&lt;/li&gt;
+  &lt;li&gt;7639111 fb: fix lost console when the user unplugs a USB adapter&lt;/li&gt;
+  &lt;li&gt;6c4dcc2 pwm: tiehrpwm: Fix disabling of output of PWMs&lt;/li&gt;
+  &lt;li&gt;37ca931 ubifs: Fix synced_i_size calculation for xattr inodes&lt;/li&gt;
+  &lt;li&gt;d651012 Revert “UBIFS: Fix potential integer overflow in allocation”&lt;/li&gt;
+  &lt;li&gt;155279d ubifs: Fix memory leak in lprobs self-check&lt;/li&gt;
+  &lt;li&gt;7d024b6 userns: move user access out of the mutex&lt;/li&gt;
+  &lt;li&gt;8a749f3 userns; Correct the comment in map_write&lt;/li&gt;
+  &lt;li&gt;a1ca395 sys: don’t hold uts_sem while accessing userspace memory&lt;/li&gt;
+  &lt;li&gt;3680c7e osf_getdomainname(): use copy_to_user()&lt;/li&gt;
+  &lt;li&gt;76b5c9f mm/tlb: Remove tlb_remove_table() non-concurrent condition&lt;/li&gt;
+  &lt;li&gt;8c6a5c9 ARM: tegra: Fix Tegra30 Cardhu PCA954x reset&lt;/li&gt;
+  &lt;li&gt;86e40c0 pnfs/blocklayout: off by one in bl_map_stripe()&lt;/li&gt;
+  &lt;li&gt;02de522 9p: fix multiple NULL-pointer-dereferences&lt;/li&gt;
+  &lt;li&gt;eb67901 uprobes: Use synchronize_rcu() not synchronize_sched()&lt;/li&gt;
+  &lt;li&gt;73b5c3d kthread, tracing: Don’t expose half-written comm when creating kthreads&lt;/li&gt;
+  &lt;li&gt;a5a4dfa tracing/blktrace: Fix to allow setting same value&lt;/li&gt;
+  &lt;li&gt;38a39e3 tracing: Do not call start/stop() functions when tracing_on does not change&lt;/li&gt;
+  &lt;li&gt;76eb62b iio: ad9523: Fix return value for ad952x_store()&lt;/li&gt;
+  &lt;li&gt;a3442d6 iio: ad9523: Fix displayed phase&lt;/li&gt;
+  &lt;li&gt;ceef7b2 dm cache metadata: save in-core policy_hint_size to on-disk superblock&lt;/li&gt;
+  &lt;li&gt;d90fb29 net/9p/trans_fd.c: fix race-condition by flushing workqueue before the kfree()&lt;/li&gt;
+  &lt;li&gt;7bba0ec net/9p/client.c: version pointer uninitialized&lt;/li&gt;
+  &lt;li&gt;fd38cf6 9p/virtio: fix off-by-one error in sg list bounds check&lt;/li&gt;
+  &lt;li&gt;43a2089 powerpc/pseries: Fix endianness while restoring of r3 in MCE handler.&lt;/li&gt;
+  &lt;li&gt;b3f3454 powerpc/fadump: handle crash memory ranges array index overflow&lt;/li&gt;
+  &lt;li&gt;fec7d72 spi: davinci: fix a NULL pointer dereference&lt;/li&gt;
+  &lt;li&gt;569bded ALSA: rawmidi: Undo my 3.18.117 resolution&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;
