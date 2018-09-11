@@ -34,6 +34,7 @@ Changelog/Tracking :
 
 ---
 
+*   8118380 (PRIMA) Merge tag 'LA.UM.6.6.r1-09700-89xx.0'
 *   39e971d Merge branch 'kernel.lnx.3.18.r33-rel' of https://github.com/android-linux-stable/msm-3.18 into v3.18y
 *   a5cf0ab Merge tag 'LA.UM.6.6.r1-09700-89xx.0' into kernel.lnx.3.18.r33-rel
 *   a286f86 Renamed kernel zip to v3.18.122
