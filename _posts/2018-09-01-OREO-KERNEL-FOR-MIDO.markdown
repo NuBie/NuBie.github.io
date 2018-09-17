@@ -9,6 +9,13 @@ Ini adalah changelog perubahan Kernel mido v3.18.y based on caf untuk Android Or
 Changelog/Tracking :
 ---
 *   --common kernel--
+*   549129f add mdss idle state node
+*   15d8164 remove mdss partial update region delays
+*   0ce58b1 binder upstream
+*   ede7958 Print vulkan memory types as well
+*   cf8ca18 do not invoke loading of gpu zap shader
+*   f927aba remove incorrect check to cap ab vote to ib vote
+*   094135f fix mdss dsi potential buffer overflow
 *   31cd970 sched/core: Properly fix constant logical operand Clang warning
 *   b40f59c ALSA: rawmidi: Undo my 3.18.117 resolution
 *   884706d fix memory leak free binder memory on error
