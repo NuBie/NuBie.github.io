@@ -114,6 +114,149 @@
 </ul>
 
 <hr />
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>***********************************2018-10-18***********************************
+</code></pre></div></div>
+
+<hr />
+
+<p>0159397 staging: ion: msm: Apply d82ad70e8aff to msm_ion_custom_ioctl
+8d1d648 BACKPORT: staging: android: ion: Pull out ion ioctls to a separate file
+2c6bd49 Merge branch ‘linux-3.18.y’ of https://git.kernel.org/pub/scm/linux/kern
+0d63979 Linux 3.18.124
+ab94214 ebtables: arpreply: Add the standard target sanity check
+72c6877 ubifs: Check for name being NULL while mounting
+e289e19 cgroup: Fix deadlock in cpu hotplug path
+4faa558 ext4: avoid running out of journal credits when appending to an inline f
+5241002 jbd2: don’t mark block as modified if the handle is out of credits
+292dc96 ext4: add more inode number paranoia checks
+fd26343 ext4: never move the system.data xattr out of the inode body
+f8b8db0 ext4: always verify the magic number in xattr blocks
+912e35d ext4: add corruption check in ext4<em>xattr_set_entry()
+5141d33 ext4: fix false negatives *and* false positives in ext4_check_descriptor
+6f6da33 ext4: always check block group bounds in ext4_init_block_bitmap()
+08b1fd2 ext4: fix check to prevent initializing reserved inodes
+8d41974 ext4: only look at the bg_flags field if it is valid
+974abf8 USB: serial: simple: add Motorola Tetra MTP6550 id
+d9e61bd PM / core: Clear the direct_complete flag on errors
+726063c mac80211: fix setting IEEE80211_KEY_FLAG_RX_MGMT for AP mode keys
+8858d0c PCI: Reprogram bridge prefetch registers on resume
+b1f378d x86/vdso: Fix vDSO syscall fallback asm constraint regression
+430d094 x86/vdso: Fix asm constraints on vDSO syscall fallbacks
+39e616e fbdev/omapfb: fix omapfb_memory_read infoleak
+ea20fab proc: restrict kernel stack dumps to root
+01f7e02 mtd: fsl-quadspi: fix macro collision problems with READ/WRITE
+685adc7 Make file credentials available to the seqfile interfaces
+8c6fbba dm thin metadata: fix __udivdi3 undefined on 32-bit
+1c07a7c ocfs2: fix locking for res-&gt;tracking and dlm-&gt;tracking_list
+1b42ccd crypto: mxs-dcp - Fix wait logic on chan threads
+ada05f7 smb2: fix missing files in root share directory listing
+b4f13b6 xen: fix GCC warning and remove duplicate EVTCHN_ROW/EVTCHN_COL usage
+f1cf612 xen/manage: don’t complain about an empty value in control/sysrq node
+fd51d7c cifs: read overflow in is_valid_oplock_break()
+50997bd s390/qeth: don’t dump past end of unknown HW header
+f56aa68 r8169: Clear RTL_FLAG_TASK</em>*<em>PENDING when clearing RTL_FLAG_TASK_ENABLED
+43f67da hexagon: modify ffs() and fls() to return int
+ece6546 arch/hexagon: fix kernel/dma.c build warning
+b438753 dm thin metadata: try to avoid ever aborting transactions
+699c477 fs/cifs: suppress a string overflow warning
+8c44ff3 USB: yurex: Check for truncation in yurex_read()
+d90c014 RDMA/ucma: check fd type in ucma_migrate_id()
+e467ada mm: madvise(MADV_DODUMP): allow hugetlbfs pages
+792de67 tools/vm/page-types.c: fix “defined but not used” warning
+2579073 tools/vm/slabinfo.c: fix sign-compare warning
+15ace34 mac80211: shorten the IBSS debug messages
+3655a53 mac80211: Fix station bandwidth setting after channel switch
+869ce9b mac80211: fix a race between restart and CSA flows
+33865da fs/cifs: don’t translate SFM_SLASH (U+F026) to backslash
+1ed8736 net: cadence: Fix a sleep-in-atomic-context bug in macb_halt_tx()
+3f5fc65 RAID10 BUG_ON in raise_barrier when force is true and conf-&gt;barrier is 0
+5f2da71 cfg80211: nl80211_update_ft_ies() to validate NL80211_ATTR_IE
+9f91fbe gpio: adp5588: Fix sleep-in-atomic-context bug
+44e7dfa mac80211: correct use of IEEE80211_VHT_CAP_RXSTBC_X
+0a76f11 KVM: PPC: Book3S HV: Don’t truncate HPTE index in xlate function
+10c134d media: v4l: event: Prevent freeing event subscriptions while accessed
+a46148c arm64: KVM: Sanitize PSTATE.M when being set from userspace
+4e249d0 hwmon: (adt7475) Make adt7475_read_word() return errors
+666a305 e1000: ensure to free old tx/rx rings in set_ringparam()
+aa7ef1e e1000: check on netif_running() before calling e1000_up()
+4aee595 thermal: of-thermal: disable passive polling when thermal zone is disabl
+6836260 ext4: verify the depth of extent tree in ext4_find_extent()
+d26e091 arm64: KVM: Tighten guest core register access from userspace
+d82ad70 staging: android: ion: fix ION_IOC</em>{MAP,SHARE} use-after-free
+be6f6ea scsi: target: iscsi: Use bin2hex instead of a re-implementation
+05bebb4 USB: remove LPM management from usb_driver_claim_interface()
+f309693 Revert “usb: cdc-wdm: Fix a sleep-in-atomic-context bug in service_outst
+24e5fc9 USB: usbdevfs: restore warning for nonsensical flags
+2ea0147 USB: usbdevfs: sanitize flags more
+530d537 media: uvcvideo: Support realtek’s UVC 1.5 device
+843b66c slub: make -&gt;cpu_partial unsigned int
+48ba1bb USB: handle NULL config in usb_find_alt_setting()
+75e71d4 USB: fix error handling in usb_driver_claim_interface()
+6ea058b spi: rspi: Fix interrupted DMA transfers
+5a5b2a2 spi: sh-msiof: Fix handling of write value for SISTR register
+f4da70b spi: tegra20-slink: explicitly enable/disable clock
+784a10d serial: cpm_uart: return immediately from console poll
+0facefd floppy: Do not copy a kernel pointer to user memory in FDGETPRM ioctl
+0fb40f7 nfsd: fix corrupted reply to badly ordered compound
+5199f51 module: exclude SHN_UNDEF symbols from kallsyms api
+8e74d31 ASoC: dapm: Fix potential DAI widget pointer deref when linking DAIs
+b4bc21f scsi: bnx2i: add error handling for ioremap_nocache
+fafbfb1 HID: hid-ntrig: add error handling for sysfs_create_group
+d02f965 ARM: mvebu: declare asm symbols as character arrays in pmsu.c
+cbc56a1 wlcore: Add missing PM call for wlcore_cmd_wait_for_event_or_timeout()
+1ae2ccc rndis_wlan: potential buffer overflow in rndis_wlan_auth_indication()
+ebfb72d ALSA: hda: Add AZX_DCAPS_PM_RUNTIME for AMD Raven Ridge
+f228654 media: tm6000: add error handling for dvb_register_adapter
+7376ca3 drivers/tty: add error handling for pcmcia_loop_config
+59c5b0c staging: android: ashmem: Fix mmap size validation
+4e8a8b0 media: soc_camera: ov772x: correct setting of banding filter
+359c08d media: s3c-camif: ignore -ENOIOCTLCMD from v4l2_subdev_call for s_power
+65ec1f1 ALSA: snd-aoa: add of_node_put() in error path
+8963aa5 s390/extmem: fix gcc 8 stringop-overflow warning
+f497869 alarmtimer: Prevent overflow for relative nanosleep
+5c25cf1 usb: wusbcore: security: cast sizeof to int for comparison
+f5ba827 scsi: ibmvscsi: Improve strings handling
+17c3a52 scsi: target/iscsi: Make iscsit_ta_authentication() respect the output b
+1edc254 x86/tsc: Add missing header to tsc_msr.c
+4fc95d5 powerpc/kdump: Handle crashkernel memory reservation failure
+084dad9 media: exynos4-is: Prevent NULL pointer dereference in __isp_video_try_f
+ec9147b USB: serial: kobil_sct: fix modem-status error handling
+81f7ce1 uwb: hwa-rc: fix memory leak at probe
+9628ed4 x86/numa_emulation: Fix emulated-to-physical node mapping
+64efd66 tsl2550: fix lux1_input error in low light
+0d20b84 crypto: skcipher - Fix -Wstringop-truncation warnings
+6b7066b HID: sony: Support DS4 dongle
+88fc9f8 HID: sony: Update device ids
+5e290d8 arm64: Add trace_hardirqs_off annotation in ret_to_user
+17c3c6f ext4: don’t mark mmp buffer head dirty
+c77f7cc ext4: fix online resize’s handling of a too-small final block group
+4fdc69d ext4: recalucate superblock checksum after updating free blocks/inodes
+83a2774 ext4: avoid divide by zero fault when deleting corrupted inline director
+632ff8f ocfs2: fix ocfs2 read block panic
+d31152b scsi: target: iscsi: Use hex2bin instead of a re-implementation
+2e421bf ipv6: fix possible use-after-free in ip6_xmit()
+3f0d9d1 neighbour: confirm neigh entries when ARP packet is received
+a9b7eba net: hp100: fix always-true check for link up state
+2ababd5 net/appletalk: fix minor pointer leak to userspace in SIOCFINDIPDDPRT
+0aced03 gso_segment: Reset skb-&gt;mac_len after modifying network header
+b457061 mm: shmem.c: Correctly annotate new inodes for lockdep
+05bc6cb ring-buffer: Allow for rescheduling when removing pages
+b27adc0 ALSA: emu10k1: fix possible info leak to userspace on SNDRV_EMU10K1_IOCT
+7ddd41b ALSA: bebob: use address returned by kmalloc() instead of kernel stack f
+b3667b7 ASoC: cs4265: fix MMTLR Data switch control
+d1168b8 ANDROID: sdcardfs: Change current-&gt;fs under lock
+cf59897 ANDROID: sdcardfs: Don’t use OVERRIDE_CRED macro
+9a8c091 PRIMA : Merge tag ‘LA.UM.6.6.r1-09900-89xx.0’ of https://source.codeauro
+5170af1 Merge tag ‘LA.UM.6.6.r1-09900-89xx.0’ of https://source.codeaurora.org/q
+b1b1ba1 asoc : msm: Fix zero size pointer issue
+f3c4f38 Merge 1d019fd4b4649bbfddb00289b87ccbd6285b7d06 on remote branch
+994d6e7 Merge 8a22a653e4730973bf26cd4415c74c8c7bb7224f on remote branch
+336e264 drivers: mmc, usb: Pull missing 3.18.{20-&gt;71} changes
+fead882 USB: u_ether: Squash some partial reverts
+b5211f1 Revert “usb: dwc3: gadget: Fix calculation of request.actual for SG”
+0c7771a Revert “usb: hcd: Fix double free with bandwidth_mutex on cable disconne</p>
+
+<hr />
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>***********************************2018-10-01***********************************
 </code></pre></div></div>
 
